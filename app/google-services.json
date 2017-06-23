@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "20320283212",
+    "firebase_url": "https://diquesur-165023.firebaseio.com",
+    "project_id": "diquesur-165023",
+    "storage_bucket": "diquesur-165023.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:20320283212:android:46db815ed2479dcc",
+        "android_client_info": {
+          "package_name": "com.sufinho.diquesur"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "20320283212-h151hnb8utat1n7kgidpf2c4bnetulq3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4Dw8zx3viw3ywxCBA0UNzGaXIzFsN0Ws"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

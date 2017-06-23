@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/catalogo_grid_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.sufinho.diquesur.NavigationMenu"
+    tools:showIn="@layout/app_bar_navigation_menu">
+
+    <!-- GRID_VIEW -->
+    <GridView
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/background_dark"
+        android:columnWidth="120dp"
+        android:horizontalSpacing="@dimen/espacio_grid"
+        android:numColumns="auto_fit"
+        android:padding="@dimen/espacio_grid"
+        android:verticalSpacing="@dimen/espacio_grid"
+        android:visibility="visible" />
+
+</LinearLayout>
